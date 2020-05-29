@@ -1,0 +1,3 @@
+/home/benson/cpp_ws/drafts/io_library/str_stream/build/CMakeFiles/rebuild_cache.dir
+/home/benson/cpp_ws/drafts/io_library/str_stream/build/CMakeFiles/a.out.dir
+/home/benson/cpp_ws/drafts/io_library/str_stream/build/CMakeFiles/edit_cache.dir

@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/benson/cpp_ws/opsys/datatype/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7    -g   -o CMakeFiles/a.out.dir/main.cpp.o -c /home/benson/cpp_ws/opsys/datatype/main.cpp",
+  "file": "/home/benson/cpp_ws/opsys/datatype/main.cpp"
+}
+]

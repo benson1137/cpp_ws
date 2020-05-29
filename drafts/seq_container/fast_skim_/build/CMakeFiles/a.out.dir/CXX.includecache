@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/benson/cpp_ws/drafts/seq_container/fast_skim_/main.cpp
+iostream
+-
+list
+-
+vector
+-
+string
+-
+forward_list
+-
+deque
+-
+array
+-
+

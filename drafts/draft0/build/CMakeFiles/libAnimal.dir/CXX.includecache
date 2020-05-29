@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/benson/cpp_ws/drafts/draft0/Animal.cpp
+Animal.h
+/home/benson/cpp_ws/drafts/draft0/Animal.h
+
+/home/benson/cpp_ws/drafts/draft0/Animal.h
+iostream
+-
+string
+-
+

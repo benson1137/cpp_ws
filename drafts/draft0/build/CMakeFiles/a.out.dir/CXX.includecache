@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/benson/cpp_ws/drafts/draft0/Animal.h
+iostream
+-
+string
+-
+
+/home/benson/cpp_ws/drafts/draft0/main.cpp
+iostream
+-
+Animal.h
+/home/benson/cpp_ws/drafts/draft0/Animal.h
+

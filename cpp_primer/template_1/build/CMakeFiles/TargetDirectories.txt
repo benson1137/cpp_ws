@@ -1,0 +1,3 @@
+/home/benson/cpp_ws/cpp_primer/templete1_1/build/CMakeFiles/rebuild_cache.dir
+/home/benson/cpp_ws/cpp_primer/templete1_1/build/CMakeFiles/a.out.dir
+/home/benson/cpp_ws/cpp_primer/templete1_1/build/CMakeFiles/edit_cache.dir

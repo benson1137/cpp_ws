@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/benson/cpp_ws/opsys/asm_check/libtest.c
+libtest.h
+/home/benson/cpp_ws/opsys/asm_check/libtest.h
+
+/home/benson/cpp_ws/opsys/asm_check/libtest.h
+

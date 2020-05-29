@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsalesdata.a  CMakeFiles/salesdata.dir/Sales_data.cpp.o
+/usr/bin/ranlib libsalesdata.a

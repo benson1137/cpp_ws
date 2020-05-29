@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/benson/cpp_ws/drafts/param_pass_/build",
+  "command": "/usr/bin/g++-7    -g   -o CMakeFiles/a.out.dir/main.cpp.o -c /home/benson/cpp_ws/drafts/param_pass_/main.cpp",
+  "file": "/home/benson/cpp_ws/drafts/param_pass_/main.cpp"
+}
+]

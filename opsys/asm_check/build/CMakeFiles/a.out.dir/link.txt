@@ -1,0 +1,1 @@
+/usr/bin/gcc-7 -g  -rdynamic CMakeFiles/a.out.dir/main.c.o  -o a.out liblibtest.a 

@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/benson/cpp_ws/drafts/draft0/build",
+  "command": "/usr/bin/g++-7    -g   -o CMakeFiles/libAnimal.dir/Animal.cpp.o -c /home/benson/cpp_ws/drafts/draft0/Animal.cpp",
+  "file": "/home/benson/cpp_ws/drafts/draft0/Animal.cpp"
+},
+{
+  "directory": "/home/benson/cpp_ws/drafts/draft0/build",
+  "command": "/usr/bin/g++-7    -g   -o CMakeFiles/a.out.dir/main.cpp.o -c /home/benson/cpp_ws/drafts/draft0/main.cpp",
+  "file": "/home/benson/cpp_ws/drafts/draft0/main.cpp"
+}
+]

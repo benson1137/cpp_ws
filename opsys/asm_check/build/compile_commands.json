@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/benson/cpp_ws/opsys/asm_check/build",
+  "command": "/usr/bin/gcc-7   -g   -o CMakeFiles/libtest.dir/libtest.c.o   -c /home/benson/cpp_ws/opsys/asm_check/libtest.c",
+  "file": "/home/benson/cpp_ws/opsys/asm_check/libtest.c"
+},
+{
+  "directory": "/home/benson/cpp_ws/opsys/asm_check/build",
+  "command": "/usr/bin/gcc-7   -g   -o CMakeFiles/a.out.dir/main.c.o   -c /home/benson/cpp_ws/opsys/asm_check/main.c",
+  "file": "/home/benson/cpp_ws/opsys/asm_check/main.c"
+}
+]
