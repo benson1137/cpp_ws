@@ -6,7 +6,13 @@
 
 #IncludeRegexTransform: 
 
+/home/benson/cpp_ws/drafts/class_/base_/Sales_data.h
+iostream
+-
+
 /home/benson/cpp_ws/drafts/class_/base_/main.cpp
+Sales_data.h
+/home/benson/cpp_ws/drafts/class_/base_/Sales_data.h
 iostream
 -
 

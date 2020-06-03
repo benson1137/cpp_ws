@@ -1,12 +1,12 @@
 [
 {
   "directory": "/home/benson/cpp_ws/drafts/class_/base_/build",
-  "command": "/usr/bin/g++-7    -g   -o CMakeFiles/salesdata.dir/Sales_data.cpp.o -c /home/benson/cpp_ws/drafts/class_/base_/Sales_data.cpp",
-  "file": "/home/benson/cpp_ws/drafts/class_/base_/Sales_data.cpp"
+  "command": "/bin/g++-9    -g   -o CMakeFiles/a.out.dir/main.cpp.o -c /home/benson/cpp_ws/drafts/class_/base_/main.cpp",
+  "file": "/home/benson/cpp_ws/drafts/class_/base_/main.cpp"
 },
 {
   "directory": "/home/benson/cpp_ws/drafts/class_/base_/build",
-  "command": "/usr/bin/g++-7    -g   -o CMakeFiles/a.out.dir/main.cpp.o -c /home/benson/cpp_ws/drafts/class_/base_/main.cpp",
-  "file": "/home/benson/cpp_ws/drafts/class_/base_/main.cpp"
+  "command": "/bin/g++-9    -g   -o CMakeFiles/salesdata.dir/Sales_data.cpp.o -c /home/benson/cpp_ws/drafts/class_/base_/Sales_data.cpp",
+  "file": "/home/benson/cpp_ws/drafts/class_/base_/Sales_data.cpp"
 }
 ]
