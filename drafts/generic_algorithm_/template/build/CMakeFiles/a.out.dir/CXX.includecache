@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/benson/cpp_ws/drafts/generic_algorithm_/template/main.cpp
+iostream
+-
+vector
+-
+string
+-
+list
+-
+iterator
+-
+algorithm
+-
+numeric
+-
+
