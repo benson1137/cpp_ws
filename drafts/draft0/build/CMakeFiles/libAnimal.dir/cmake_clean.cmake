@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/libAnimal.dir/Animal.cpp.o"
-  "liblibAnimal.pdb"
   "liblibAnimal.a"
+  "liblibAnimal.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,4 +1,4 @@
-# Install script for directory: /home/benson/cpp_ws/drafts/const_ref
+# Install script for directory: /home/benson/cpp_ws/drafts/const_
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/benson/cpp_ws/drafts/const_ref/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/benson/cpp_ws/drafts/const_/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

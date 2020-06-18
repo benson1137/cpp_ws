@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
@@ -51,11 +52,20 @@ void const_primer()
     // cout << "*pi is: " << *pi << "\tci is: " << *ci << endl;
 }
 
-// TO BE UPDATED
+void ref_function(const vector<int> &a)
+{
+    // a.push_back(0);
+    for (auto i : a)
+        cout << i << "\t";
+    cout << endl;
+}
 
 int main(int argc, char const *argv[])
 {
     // const_ref();
     // const_primer();
+
+    vector<int> data = {1, 2, 3, 4, 5, 6};
+    ref_function(data);
     return 0;
 }
