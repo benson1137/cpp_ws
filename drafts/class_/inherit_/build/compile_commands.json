@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/benson/cpp_ws/drafts/class_/inherit_/build",
+  "command": "/bin/g++-9    -g   -o CMakeFiles/a.out.dir/main.cpp.o -c /home/benson/cpp_ws/drafts/class_/inherit_/main.cpp",
+  "file": "/home/benson/cpp_ws/drafts/class_/inherit_/main.cpp"
+},
+{
+  "directory": "/home/benson/cpp_ws/drafts/class_/inherit_/build",
+  "command": "/bin/g++-9    -g   -o CMakeFiles/rectangle.dir/rectangle.cpp.o -c /home/benson/cpp_ws/drafts/class_/inherit_/rectangle.cpp",
+  "file": "/home/benson/cpp_ws/drafts/class_/inherit_/rectangle.cpp"
+},
+{
+  "directory": "/home/benson/cpp_ws/drafts/class_/inherit_/build",
+  "command": "/bin/g++-9    -g   -o CMakeFiles/point.dir/point.cpp.o -c /home/benson/cpp_ws/drafts/class_/inherit_/point.cpp",
+  "file": "/home/benson/cpp_ws/drafts/class_/inherit_/point.cpp"
+}
+]

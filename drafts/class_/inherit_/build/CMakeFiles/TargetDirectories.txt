@@ -1,0 +1,5 @@
+/home/benson/cpp_ws/drafts/class_/inherit_/build/CMakeFiles/rebuild_cache.dir
+/home/benson/cpp_ws/drafts/class_/inherit_/build/CMakeFiles/edit_cache.dir
+/home/benson/cpp_ws/drafts/class_/inherit_/build/CMakeFiles/a.out.dir
+/home/benson/cpp_ws/drafts/class_/inherit_/build/CMakeFiles/rectangle.dir
+/home/benson/cpp_ws/drafts/class_/inherit_/build/CMakeFiles/point.dir

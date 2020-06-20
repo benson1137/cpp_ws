@@ -46,4 +46,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/a.out.dir/DependInfo.cmake"
+  "CMakeFiles/rectangle.dir/DependInfo.cmake"
+  "CMakeFiles/point.dir/DependInfo.cmake"
   )

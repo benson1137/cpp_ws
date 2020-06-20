@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/benson/cpp_ws/drafts/class_/inherit_/point.h
+
+/home/benson/cpp_ws/drafts/class_/inherit_/rectangle.cpp
+rectangle.h
+/home/benson/cpp_ws/drafts/class_/inherit_/rectangle.h
+
+/home/benson/cpp_ws/drafts/class_/inherit_/rectangle.h
+point.h
+/home/benson/cpp_ws/drafts/class_/inherit_/point.h
+

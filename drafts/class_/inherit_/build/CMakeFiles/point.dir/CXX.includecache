@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/benson/cpp_ws/drafts/dynamic_ram_distr_/main.cpp
+/home/benson/cpp_ws/drafts/class_/inherit_/point.cpp
+point.h
+/home/benson/cpp_ws/drafts/class_/inherit_/point.h
 iostream
 -
-cassert
--
+
+/home/benson/cpp_ws/drafts/class_/inherit_/point.h
 

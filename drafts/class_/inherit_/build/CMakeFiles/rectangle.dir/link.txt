@@ -1,0 +1,2 @@
+/bin/ar qc librectangle.a  CMakeFiles/rectangle.dir/rectangle.cpp.o
+/bin/ranlib librectangle.a
