@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/benson/cpp_ws/drafts/class_/template_class_/build",
+  "command": "/bin/g++-9   -I/home/benson/cpp_ws/drafts/class_/template_class_/.  -g   -o CMakeFiles/a.out.dir/main.cpp.o -c /home/benson/cpp_ws/drafts/class_/template_class_/main.cpp",
+  "file": "/home/benson/cpp_ws/drafts/class_/template_class_/main.cpp"
+},
+{
+  "directory": "/home/benson/cpp_ws/drafts/class_/template_class_/build",
+  "command": "/bin/g++-9   -I/home/benson/cpp_ws/drafts/class_/template_class_/.  -g   -o CMakeFiles/atom.dir/atom.cpp.o -c /home/benson/cpp_ws/drafts/class_/template_class_/atom.cpp",
+  "file": "/home/benson/cpp_ws/drafts/class_/template_class_/atom.cpp"
+}
+]

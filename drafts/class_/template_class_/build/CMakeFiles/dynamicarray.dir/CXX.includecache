@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/benson/cpp_ws/drafts/class_/template_class_/dynamicArray.cpp
+dynamicArray.h
+/home/benson/cpp_ws/drafts/class_/template_class_/dynamicArray.h
+iostream
+/home/benson/cpp_ws/drafts/class_/template_class_/iostream
+cassert
+/home/benson/cpp_ws/drafts/class_/template_class_/cassert
+
+/home/benson/cpp_ws/drafts/class_/template_class_/dynamicArray.h
+

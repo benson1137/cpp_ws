@@ -1,0 +1,2 @@
+/bin/ar qc libatom.a  CMakeFiles/atom.dir/atom.cpp.o
+/bin/ranlib libatom.a

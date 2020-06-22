@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/benson/cpp_ws/drafts/class_/template_class_/atom.cpp
+atom.h
+/home/benson/cpp_ws/drafts/class_/template_class_/atom.h
+
+/home/benson/cpp_ws/drafts/class_/template_class_/atom.h
+iostream
+/home/benson/cpp_ws/drafts/class_/template_class_/iostream
+

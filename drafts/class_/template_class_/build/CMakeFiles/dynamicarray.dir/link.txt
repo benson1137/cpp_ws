@@ -1,0 +1,2 @@
+/bin/ar qc libdynamicarray.a  CMakeFiles/dynamicarray.dir/dynamicArray.cpp.o
+/bin/ranlib libdynamicarray.a
