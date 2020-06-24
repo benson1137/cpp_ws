@@ -75,9 +75,9 @@ void write_algo()
     cout << endl;
     // 再插入10个值
     fill_n(it, 10, 2);
-    for (int i : blank_vec)
-        cout << i << "\t";
-    cout << endl;
+    // for (int i : blank_vec)
+    //     cout << i << "\t";
+    // cout << endl;
 
     cout << endl
          << "------------copy-------------" << endl;
@@ -105,6 +105,7 @@ void rearrange_algo()
     vector<string> vec = {"fox", "jumps", "over", "quick", "red", "slow", "the", "turtle"};
     // 按字典排序
     sort(vec.begin(), vec.end());
+
     for (auto i : vec)
         cout << i << "\t";
     cout << endl;
