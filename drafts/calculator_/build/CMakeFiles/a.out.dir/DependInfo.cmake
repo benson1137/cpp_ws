@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/benson/cpp_ws/drafts/calculators_/mid_calculator/main.cpp" "/home/benson/cpp_ws/drafts/calculators_/mid_calculator/build/CMakeFiles/a.out.dir/main.cpp.o"
+  "/home/benson/cpp_ws/drafts/calculator_/main.cpp" "/home/benson/cpp_ws/drafts/calculator_/build/CMakeFiles/a.out.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

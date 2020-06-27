@@ -1,17 +1,16 @@
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
-typedef unsigned char typo;
+int totalFruit(vector<int> &tree)
+{
+}
 
 int main(int argc, char const *argv[])
 {
-    typo tab[] = {0, 1, 2, 3, 4, 5, 6};
-    typo *p = tab;
-    for (int i = 0; i < 7; i++, p++)
-    {
-        cout << *p << p << endl;
-    }
-    cout << endl;
+    // vector<int> t = {1, 2, 2, 3, 2, 2, 4, 2, 2, 1, 1, 1, 1, 1};
+    vector<int> t = {3, 3, 3, 1, 2, 1, 1, 2, 3, 3, 4};
+    cout << totalFruit(t) << endl;
     return 0;
 }

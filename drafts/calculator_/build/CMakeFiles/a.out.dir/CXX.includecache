@@ -6,15 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/benson/cpp_ws/drafts/draft0/main.cpp
+/home/benson/cpp_ws/drafts/calculator_/main.cpp
 iostream
 -
 string
 -
+sstream
+-
 vector
 -
-set
--
-algorithm
+stack.h
+/home/benson/cpp_ws/drafts/calculator_/stack.h
+
+/home/benson/cpp_ws/drafts/calculator_/stack.h
+iostream
 -
 

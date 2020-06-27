@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/benson/cpp_ws/drafts/calculators_/mid_calculator/build",
-  "command": "/bin/g++-9    -g   -o CMakeFiles/a.out.dir/main.cpp.o -c /home/benson/cpp_ws/drafts/calculators_/mid_calculator/main.cpp",
-  "file": "/home/benson/cpp_ws/drafts/calculators_/mid_calculator/main.cpp"
-}
-]

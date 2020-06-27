@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/benson/cpp_ws/drafts/calculators_/mid_calculator
+CMAKE_SOURCE_DIR = /home/benson/cpp_ws/drafts/calculator_
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/benson/cpp_ws/drafts/calculators_/mid_calculator/build
+CMAKE_BINARY_DIR = /home/benson/cpp_ws/drafts/calculator_/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/benson/cpp_ws/drafts/calculators_/mid_calculator/build/CMakeFiles /home/benson/cpp_ws/drafts/calculators_/mid_calculator/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/benson/cpp_ws/drafts/calculator_/build/CMakeFiles /home/benson/cpp_ws/drafts/calculator_/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/benson/cpp_ws/drafts/calculators_/mid_calculator/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/benson/cpp_ws/drafts/calculator_/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

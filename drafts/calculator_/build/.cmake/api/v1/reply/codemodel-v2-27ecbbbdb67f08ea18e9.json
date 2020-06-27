@@ -48,8 +48,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/benson/cpp_ws/drafts/calculators_/mid_calculator/build",
-		"source" : "/home/benson/cpp_ws/drafts/calculators_/mid_calculator"
+		"build" : "/home/benson/cpp_ws/drafts/calculator_/build",
+		"source" : "/home/benson/cpp_ws/drafts/calculator_"
 	},
 	"version" : 
 	{
