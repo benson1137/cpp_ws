@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/benson/cpp_ws/algo_/kmp_match/build",
+  "command": "/bin/gcc-9   -g   -o CMakeFiles/a.out.dir/main.c.o   -c /home/benson/cpp_ws/algo_/kmp_match/main.c",
+  "file": "/home/benson/cpp_ws/algo_/kmp_match/main.c"
+}
+]
