@@ -14,7 +14,13 @@ void get_next(char s[], int next[])
         {
             j++;
             i++;
-            next[i] = j;
+            // next[i] = j;
+            if (s[i] != s[j])
+            {
+                next[i] = j;
+            }
+            else
+                next[i] = next[j];
         }
         else
             j = next[j];
