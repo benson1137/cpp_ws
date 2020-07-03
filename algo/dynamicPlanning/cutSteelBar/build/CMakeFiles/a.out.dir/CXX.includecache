@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/benson/cpp_ws/drafts/draft0/main.cpp
+/home/benson/cpp_ws/algo/dynamicPlanning/cutSteelBar/main.cpp
 iostream
 -
-vector
+algorithm
 -
 
