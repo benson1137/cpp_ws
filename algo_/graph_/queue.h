@@ -50,12 +50,18 @@ public:
         end = end->next;
         queue_size++;
     }
-    void dequeue()
+    void dequeue(T *getHead = nullptr)
     {
+        if (getHead != nullptr)
+        {
+            *getHead = T(front->next->data);
+        }
+
         // 空队列，返回错误信息
         if (empty())
         {
             std::cout << "Empty Queue! Can't Deque!" << std::endl;
+            return;
         }
         // 只有一个元素
         else if (queue_size == 1)
@@ -64,6 +70,7 @@ public:
             end = front;
             front->next = nullptr;
             queue_size--;
+            return;
         }
         // 多个元素
         else
@@ -72,6 +79,7 @@ public:
             front->next = tmp->next;
             delete tmp;
             queue_size--;
+            return;
         }
     }
     bool empty() { return front == end; }

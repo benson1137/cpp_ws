@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/benson/cpp_ws/algo_/graph_/build",
+  "command": "/bin/g++-9    -g   -o CMakeFiles/a.out.dir/main.cpp.o -c /home/benson/cpp_ws/algo_/graph_/main.cpp",
+  "file": "/home/benson/cpp_ws/algo_/graph_/main.cpp"
+}
+]

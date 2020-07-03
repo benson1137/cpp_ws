@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/benson/cpp_ws/algo_/graph_/main.cpp
+iostream
+-
+queue.h
+/home/benson/cpp_ws/algo_/graph_/queue.h
+
+/home/benson/cpp_ws/algo_/graph_/queue.h
+iostream
+-
+
