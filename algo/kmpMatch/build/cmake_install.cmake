@@ -1,4 +1,4 @@
-# Install script for directory: /home/benson/cpp_ws/algo_/kmp_match
+# Install script for directory: /home/benson/cpp_ws/algo/kmpMatch
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/benson/cpp_ws/algo_/kmp_match/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/benson/cpp_ws/algo/kmpMatch/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

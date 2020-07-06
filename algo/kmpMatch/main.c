@@ -54,7 +54,15 @@ int kmp_match(char src[], char s[])
 int main(int argc, char const *argv[])
 {
     char src[] = "sdadafasafasf";
-    int i = kmp_match(src, "asp");
+    int i = kmp_match(src, "dadaf");
     printf("%d\n", i);
+    char p[] = "abcabd";
+    int next[6];
+    get_next(p, next);
+    for (int i = 0; i < 6; i++)
+    {
+        printf("%d, ", next[i]);
+    }
+    printf("\n");
     return 0;
 }

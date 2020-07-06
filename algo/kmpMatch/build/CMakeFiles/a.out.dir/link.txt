@@ -1,1 +1,1 @@
-/bin/gcc-9 -g  -rdynamic CMakeFiles/a.out.dir/main.c.o  -o a.out 
+/usr/bin/cc -g  -rdynamic CMakeFiles/a.out.dir/main.c.o  -o a.out 

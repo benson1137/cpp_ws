@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/benson/cpp_ws/algo_/kmp_match/main.c
+/home/benson/cpp_ws/algo/kmpMatch/main.c
 stdio.h
 -
 string.h

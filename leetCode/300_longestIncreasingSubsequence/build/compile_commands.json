@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/benson/cpp_ws/leetCode/300_longestIncreasingSubsequence/build",
+  "command": "/bin/g++-9    -g   -o CMakeFiles/a.out.dir/main.cpp.o -c /home/benson/cpp_ws/leetCode/300_longestIncreasingSubsequence/main.cpp",
+  "file": "/home/benson/cpp_ws/leetCode/300_longestIncreasingSubsequence/main.cpp"
+}
+]

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/benson/cpp_ws/algo_/kmp_match/main.c" "/home/benson/cpp_ws/algo_/kmp_match/build/CMakeFiles/a.out.dir/main.c.o"
+  "/home/benson/cpp_ws/algo/kmpMatch/main.c" "/home/benson/cpp_ws/algo/kmpMatch/build/CMakeFiles/a.out.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
