@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/benson/cpp_ws/algo/binTreePlus/build",
+  "command": "/bin/g++-9    -g   -o CMakeFiles/a.out.dir/main.cpp.o -c /home/benson/cpp_ws/algo/binTreePlus/main.cpp",
+  "file": "/home/benson/cpp_ws/algo/binTreePlus/main.cpp"
+},
+{
+  "directory": "/home/benson/cpp_ws/algo/binTreePlus/build",
+  "command": "/bin/g++-9    -g   -o CMakeFiles/data.dir/data.cpp.o -c /home/benson/cpp_ws/algo/binTreePlus/data.cpp",
+  "file": "/home/benson/cpp_ws/algo/binTreePlus/data.cpp"
+}
+]

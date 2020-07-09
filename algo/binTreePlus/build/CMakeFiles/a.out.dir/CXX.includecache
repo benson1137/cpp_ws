@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/benson/cpp_ws/algo/binTreePlus/bintree.hpp
+
+/home/benson/cpp_ws/algo/binTreePlus/data.hpp
+iostream
+-
+
+/home/benson/cpp_ws/algo/binTreePlus/main.cpp
+iostream
+-
+bintree.hpp
+/home/benson/cpp_ws/algo/binTreePlus/bintree.hpp
+data.hpp
+/home/benson/cpp_ws/algo/binTreePlus/data.hpp
+

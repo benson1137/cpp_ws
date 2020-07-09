@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/benson/cpp_ws/algo/binTreePlus/data.cpp
+data.hpp
+/home/benson/cpp_ws/algo/binTreePlus/data.hpp
+
+/home/benson/cpp_ws/algo/binTreePlus/data.hpp
+iostream
+-
+
