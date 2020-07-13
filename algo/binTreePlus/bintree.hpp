@@ -33,8 +33,10 @@ private:
 
 public:
     BinTree() : root(nullptr) {}
+    // 这个拷贝函数是浅拷贝
     BinTree(const BinTree &bt) : root(bt.root) {}
     ~BinTree() {}
+    bool empty() { return root == nullptr; }
 
     // 遍历：要求T类重载<<操作符
     void preOrderTraverse(TreeNode<T> *rt)
@@ -113,6 +115,32 @@ public:
     }
 
     // 插入与删除
-    void insertNode() {}
-    void deleteNode() {}
+    // 需要T类别支持比较操作
+    void insertNode(T dt)
+    {
+        TreeNode *it = root;
+        TreeNode *parentIt;
+        TreeNode newNode = new TreeNode(dt);
+        while (it != NULL)
+        {
+            parentIt = it;
+            it = (dt < it->data) ? it->leftChild : it->rightChild;
+        }
+        newNode->parent = parentIt;
+        if (it->parent == nullptr)
+        {
+            this->root = newNode;
+        }
+        else if (dt > parentIt->data)
+        {
+            parentIt->rightChild = newNode;
+        }
+        else
+        {
+            parentIt->leftChild = newNode;
+        }
+    }
+    void deleteNode()
+    {
+    }
 };

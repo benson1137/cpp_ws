@@ -54,7 +54,6 @@ CMAKE_BINARY_DIR = /home/benson/cpp_ws/drafts/draft0/build
 
 # The main recursive "all" target.
 all: CMakeFiles/a.out.dir/all
-all: CMakeFiles/libAnimal.dir/all
 
 .PHONY : all
 
@@ -65,7 +64,6 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/a.out.dir/clean
-clean: CMakeFiles/libAnimal.dir/clean
 
 .PHONY : clean
 
@@ -73,7 +71,7 @@ clean: CMakeFiles/libAnimal.dir/clean
 # Target rules for target CMakeFiles/a.out.dir
 
 # All Build rule for target.
-CMakeFiles/a.out.dir/all: CMakeFiles/libAnimal.dir/all
+CMakeFiles/a.out.dir/all:
 	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/depend
 	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/benson/cpp_ws/drafts/draft0/build/CMakeFiles --progress-num=1,2 "Built target a.out"
@@ -81,7 +79,7 @@ CMakeFiles/a.out.dir/all: CMakeFiles/libAnimal.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/a.out.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/benson/cpp_ws/drafts/draft0/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/benson/cpp_ws/drafts/draft0/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/a.out.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/benson/cpp_ws/drafts/draft0/build/CMakeFiles 0
 .PHONY : CMakeFiles/a.out.dir/rule
@@ -95,33 +93,6 @@ a.out: CMakeFiles/a.out.dir/rule
 CMakeFiles/a.out.dir/clean:
 	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/clean
 .PHONY : CMakeFiles/a.out.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/libAnimal.dir
-
-# All Build rule for target.
-CMakeFiles/libAnimal.dir/all:
-	$(MAKE) -f CMakeFiles/libAnimal.dir/build.make CMakeFiles/libAnimal.dir/depend
-	$(MAKE) -f CMakeFiles/libAnimal.dir/build.make CMakeFiles/libAnimal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/benson/cpp_ws/drafts/draft0/build/CMakeFiles --progress-num=3,4 "Built target libAnimal"
-.PHONY : CMakeFiles/libAnimal.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/libAnimal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/benson/cpp_ws/drafts/draft0/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/libAnimal.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/benson/cpp_ws/drafts/draft0/build/CMakeFiles 0
-.PHONY : CMakeFiles/libAnimal.dir/rule
-
-# Convenience name for target.
-libAnimal: CMakeFiles/libAnimal.dir/rule
-
-.PHONY : libAnimal
-
-# clean rule for target.
-CMakeFiles/libAnimal.dir/clean:
-	$(MAKE) -f CMakeFiles/libAnimal.dir/build.make CMakeFiles/libAnimal.dir/clean
-.PHONY : CMakeFiles/libAnimal.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

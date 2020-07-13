@@ -123,46 +123,6 @@ a.out/fast:
 	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/build
 .PHONY : a.out/fast
 
-#=============================================================================
-# Target rules for targets named libAnimal
-
-# Build rule for target.
-libAnimal: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 libAnimal
-.PHONY : libAnimal
-
-# fast build rule for target.
-libAnimal/fast:
-	$(MAKE) -f CMakeFiles/libAnimal.dir/build.make CMakeFiles/libAnimal.dir/build
-.PHONY : libAnimal/fast
-
-Animal.o: Animal.cpp.o
-
-.PHONY : Animal.o
-
-# target to build an object file
-Animal.cpp.o:
-	$(MAKE) -f CMakeFiles/libAnimal.dir/build.make CMakeFiles/libAnimal.dir/Animal.cpp.o
-.PHONY : Animal.cpp.o
-
-Animal.i: Animal.cpp.i
-
-.PHONY : Animal.i
-
-# target to preprocess a source file
-Animal.cpp.i:
-	$(MAKE) -f CMakeFiles/libAnimal.dir/build.make CMakeFiles/libAnimal.dir/Animal.cpp.i
-.PHONY : Animal.cpp.i
-
-Animal.s: Animal.cpp.s
-
-.PHONY : Animal.s
-
-# target to generate assembly for a file
-Animal.cpp.s:
-	$(MAKE) -f CMakeFiles/libAnimal.dir/build.make CMakeFiles/libAnimal.dir/Animal.cpp.s
-.PHONY : Animal.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -199,10 +159,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... a.out"
-	@echo "... libAnimal"
-	@echo "... Animal.o"
-	@echo "... Animal.i"
-	@echo "... Animal.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

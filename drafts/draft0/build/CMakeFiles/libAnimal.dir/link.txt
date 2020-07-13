@@ -1,2 +1,0 @@
-/bin/ar qc liblibAnimal.a  CMakeFiles/libAnimal.dir/Animal.cpp.o
-/bin/ranlib liblibAnimal.a

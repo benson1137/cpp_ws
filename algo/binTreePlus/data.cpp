@@ -7,7 +7,7 @@ Data::Data(const Data &tn) : data(tn.data) {}
 // 析构
 Data::~Data() {}
 
-std::ostream &operator<<(std::ostream &out, Data dt)
+std::ostream &operator<<(std::ostream &out, const Data &dt)
 {
     out << dt.data;
     return out;

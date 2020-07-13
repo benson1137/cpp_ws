@@ -5,7 +5,7 @@
 
 class Data
 {
-    friend std::ostream &operator<<(std::ostream &out, Data dt);
+    friend std::ostream &operator<<(std::ostream &out, const Data &dt);
 
 private:
     int data;
@@ -16,6 +16,14 @@ public:
     // 拷贝构造函数
     Data(const Data &tn);
     ~Data();
+
+    // 重载关系、比较运算符
+    bool operator<(const Data &dt) { return this->data < dt.data; }
+    bool operator<=(const Data &dt) { return this->data <= dt.data; }
+    bool operator>(const Data &dt) { return this->data > dt.data; }
+    bool operator>=(const Data &dt) { return this->data >= dt.data; }
+    bool operator==(const Data &dt) { return this->data == dt.data; }
+    bool operator!=(const Data &dt) { return this->data != dt.data; }
 };
 
-std::ostream &operator<<(std::ostream &out, Data dt);
+std::ostream &operator<<(std::ostream &out, const Data &dt);

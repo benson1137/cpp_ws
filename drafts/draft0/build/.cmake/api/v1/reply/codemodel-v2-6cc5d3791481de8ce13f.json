@@ -14,8 +14,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0,
-						1
+						0
 					]
 				}
 			],
@@ -30,8 +29,7 @@
 					"name" : "template",
 					"targetIndexes" : 
 					[
-						0,
-						1
+						0
 					]
 				}
 			],
@@ -40,15 +38,8 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "a.out::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-a.out-Debug-f127d8b0029466b37172.json",
+					"jsonFile" : "target-a.out-Debug-f14af2dc0db4e9621e57.json",
 					"name" : "a.out",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "libAnimal::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-libAnimal-Debug-0557eb41653d42add93b.json",
-					"name" : "libAnimal",
 					"projectIndex" : 0
 				}
 			]
