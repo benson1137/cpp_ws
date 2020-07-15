@@ -95,7 +95,7 @@ public:
             n = parentOfN;
             parentOfN = parentOfN->parent;
         }
-        // TODO: 测试一下如果parenOfN是nullptr的情况
+        // TODO: 测试一下如果parentOfN是nullptr的情况
         return &(*parentOfN);
     }
     T &predecessor(TreeNode<T> *n)
@@ -110,7 +110,7 @@ public:
             n = parentOfN;
             parentOfN = parentOfN->parent;
         }
-        // TODO: 测试一下如果parenOfN是nullptr的情况
+        // TODO: 测试一下如果parentOfN是nullptr的情况
         return &(*parentOfN);
     }
 
