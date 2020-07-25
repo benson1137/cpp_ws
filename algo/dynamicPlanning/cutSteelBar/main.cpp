@@ -14,6 +14,7 @@ int naiveFromTopCutRod(int pTable[], int n)
     {
         return 0;
     }
+    // 记录这个参数计算的次数
     paramCnt[n]++;
     int maxPrice = -1;
     // 这里重要的不是循环次数，i的值不能为0
